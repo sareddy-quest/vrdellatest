@@ -13,7 +13,35 @@
 import { ActivityListProps } from 'src/types';
 
 const useActivityList = (props: ActivityListProps) => {
-  let data: any = {};
+  
+  const activities = [
+    {
+      name: "Manikanda Raman",
+      activityDate: "Sent on 12/26/2022",
+      backgroundColor: "Green",
+      status: "Completed"
+    },
+    {
+      name: "Rajesh Manoharan",
+      activityDate: "Sent on 12/22/2022",
+      backgroundColor: "Green",
+      status: "Completed"
+    },
+    {
+      name: "Vignesh Vicky",
+      activityDate: "Sent on 12/20/2022",
+      backgroundColor: "Purple",
+      status: "Resend"
+    },
+    {
+      name: "Azif Ali",
+      activityDate: "Sent on 12/10/2022",
+      backgroundColor: "Purple",
+      status: "Resend"
+    }
+  ]
+  
+  let data: any = {activities};
 
   let fns: any = {};
   return { data, fns };
