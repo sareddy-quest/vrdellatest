@@ -9,7 +9,7 @@ function App() {
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={questTheme}>
         <Routes>
-          <Route path="/" element={<ActivityList activity={ActivityList}/>} />
+          <Route path="/" element={<ActivityList />} />
         </Routes>
       </ThemeProvider>
     </StyledEngineProvider>

@@ -35,7 +35,7 @@ const Activity1: any = styled('div')({
   position: `relative`,
   isolation: `isolate`,
   flexDirection: `row`,
-  width: '100%',
+  width: `453.22px`,
   height: `191px`,
   justifyContent: `flex-start`,
   alignItems: `flex-start`,

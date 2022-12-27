@@ -13,22 +13,27 @@
  *
  **********************************************************************/
 
+
 export interface VirtusigSigninProps {
   className?: any;
 }
+
 
 export interface VirtusigDashboardProps {
   className?: any;
 }
 
+
 export interface VirtusigSignupProps {
   className?: any;
 }
+
 
 export interface ActivityListProps {
   className?: any;
   activity: any;
 }
+
 
 export interface ActivityProps {
   className?: any;
